@@ -13,11 +13,4 @@
 
 /* Tiles */
 
-	.tiles {
-		body.is-preload & {
-			article {
-				@include vendor('transform', 'none');
-				opacity: 1;
-			}
-		}
-	}
+	

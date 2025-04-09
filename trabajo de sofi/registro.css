@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(rgb(14, 13, 24),  rgb(0, 0, 141), rgb(98, 1, 139));
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.form-container {
+    width: 350px;
+    padding: 20px;
+    background-color: rgba(244, 244, 244, 0.1); /* Fondo translúcido */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 249, 249);
+    text-align: center;
+    backdrop-filter: blur(10px); /* Efecto de cristal */
+}
+
+.h2, .email, .nombre, .contraseña, .in_sesion {
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    text-align: center;
+    padding: 6px;
+    background-color: rgb(3, 3, 70);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(94, 74, 206);
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+.cuerpo {
+    background-image: url(https://www.expoeducacion.com.py/archivos/banners/proyectos-destacados/responsive_3hex%C3%A1gonos.webp), url(https://www.expoeducacion.com.py/archivos/banners/proyectos-destacados/responsive_3hex%C3%A1gonos.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 0%, 110% 120%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 200px, 300px;
+}

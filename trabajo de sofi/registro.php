@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO usuarios (nombre, email, contrasenha) VALUES ('$nombre', '$email', '$contrasenha_hash')";
 
         if (mysqli_query($conn, $sql)) {
-            //header("Location: pag_principal.html");
+            //header("Location: index.html");
             $respuestas["resultado"] = "ok";
             echo json_encode($respuestas);
         } else { 

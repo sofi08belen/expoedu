@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($contrasenha, $usuario['contrasenha'])) {
             // Contraseña correcta
             // Redirigir al usuario a la página principal (por ejemplo, "index.php")
-            header("Location: pag_principal.html");
+            header("Location: index.html");
             exit(); // Asegúrate de llamar a exit() después de header() para evitar que el código siga ejecutándose
         } else {
             // Contraseña incorrecta
